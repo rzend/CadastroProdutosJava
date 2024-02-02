@@ -1,9 +1,9 @@
 package cadastro.produtos.api.domain.categoria;
 
-import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoCategoria(
-        @NotBlank
+        @NotNull
         Long id,
         String nome) {
 }
